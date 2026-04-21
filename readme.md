@@ -76,14 +76,14 @@ This project is designed to work with all modern browsers:
 2. Test in multiple browsers
 3. Update this README if adding new features or dependencies
 
-## License
+## Live link
 
-This project is open source and available under the [MIT License](LICENSE).
+https://the-developers-arena-task-2-ydvv.vercel.app/
 
 ## Contact
 
-For questions or contributions, please reach out to the project maintainer.
+For questions or contributions, please reach out to BYREE RATHAN KESHAV on
+phone no:- +91 9441973321
+gmail:-rathankeshavbyree@gmail.com
 
 ---
-
-*This README was generated based on the project structure. Update it as the project evolves.*
