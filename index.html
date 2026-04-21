@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYREE RATHAN KESHAV - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav>
+            <div class="logo">RKB</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>BYREE RATHAN KESHAV</h1>
+            <p class="tagline">Aspiring Computer Science Engineer | Future Innovator</p>
+            
+            <!-- Profile Image -->
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="rathan-keshav.jpg" alt="BYREE RATHAN KESHAV Profile Photo" onerror="this.parentElement.innerHTML='<div class=&quot;profile-fallback&quot;>👤</div>'">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I'm a passionate 1st-year BS-MS Computer Science student at Vishwa Vishwani Institute of Management, driven by an insatiable curiosity for technology and innovation. With a keen interest in building modern, user-centric applications, I'm committed to mastering both frontend and backend technologies. I believe in continuous learning and embrace challenges as opportunities to grow. My journey is fueled by a growth mindset and a desire to create meaningful digital solutions that impact lives. I'm constantly exploring new technologies, solving complex problems, and collaborating with brilliant minds to push the boundaries of what's possible in the digital world.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">HTML</span>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">CSS</span>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 65%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">JavaScript</span>
+                        <span class="skill-percentage">60%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 60%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">React</span>
+                        <span class="skill-percentage">50%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 50%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <span class="skill-name">Git & GitHub</span>
+                        <span class="skill-percentage">55%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="--width: 55%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-wrapper">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    
+                    <div class="contact-detail">
+                        <strong>Email:</strong>
+                        <a href="mailto:rathankeshavbyree@gmail.com">rathankeshavbyree@gmail.com</a>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Phone:</strong>
+                        <a href="tel:+919441973321">+91 9441973321</a>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Location:</strong>
+                        <span>Hyderabad, Telangana</span>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>College:</strong>
+                        <span>Vishwa Vishwani Institute of Management</span>
+                    </div>
+
+                    <div class="contact-detail">
+                        <strong>Course:</strong>
+                        <span>BS-MS Computer Science</span>
+                    </div>
+
+                    <h3 style="margin-top: 2rem;">Follow Me</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/rathankeshavbyree-web" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                            <span>🔗</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rathan-keshav-byree/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                            <span>💼</span>
+                        </a>
+                        <a href="https://x.com/Rathankeshav_13" target="_blank" rel="noopener noreferrer" class="social-link" title="X (Twitter)">
+                            <span>𝕏</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                        <div class="form-message" id="formMessage"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 BYREE RATHAN KESHAV | All Rights Reserved</p>
+        <div class="social-links">
+            <a href="https://github.com/rathankeshavbyree-web" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                <span>🔗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/rathan-keshav-byree/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn">
+                <span>💼</span>
+            </a>
+            <a href="https://x.com/Rathankeshav_13" target="_blank" rel="noopener noreferrer" class="social-link" title="X (Twitter)">
+                <span>𝕏</span>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    
